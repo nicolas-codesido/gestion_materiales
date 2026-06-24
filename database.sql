@@ -1,8 +1,6 @@
 -- Borra y recrea la base entera para poder reimportar el script sin errores.
 DROP DATABASE IF EXISTS gestion_materiales_nicolas;
 
-DROP DATABASE IF EXISTS gestion_materiales_nicolas;
-
 CREATE DATABASE gestion_materiales_nicolas CHARACTER
 SET
     utf8mb4 COLLATE utf8mb4_unicode_ci;
